@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Vote <%= controller.action_name %></title>
+
+<style>
+	
+	.register
+	{
+		position:absolute;
+		top:0%;
+		left:0%;
+		/*background-image: url("/images/12.jpg");*/
+        background-repeat: no-repeat; 
+		background-position: top center;
+		width:100%;
+		height: 100%;
+		background-color:rgba(169, 66, 49, 1);
+		border-radius: 10px;
+		-moz-border-radius: 5px;
+				text-align: center;
+
+	}
+	
+	.candidate
+	{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+    font-family: "ChunkFiveRegular", Rockwell, Georgia, "Times New Roman", Times, serif;
+    font-size: 2.10em;
+    color: #e2e2e2 !important;
+	}
+</style>
+</head>
+<body>
+		<div class="register">
+		<div class="candidate">
+		
+		<div style="left:10px;float:left;position:relativ;width:50%;">
+		<p>BJP &nbsp &nbsp<input type="radio" name="radio"><img src="/images/bjp.jpg" style="margin-left:25px;"><p>
+		<p>CONGRES&nbsp<input type="radio" name="radio"><img src="/images/congres.jpg" style="margin-left:25px;"></p>
+		<p>AAP &nbsp &nbsp<input type="radio" name="radio"><img src="/images/aap.jpg" style="margin-left:25px;"></p>
+		<p>CPM &nbsp &nbsp<input type="radio" name="radio"><img src="/images/cpm.jpg" style="margin-left:25px;"></p>
+		</div>
+		
+		<div style="float:left;position:relativ;width:50%;">
+		<p>SP &nbsp &nbsp<input type="radio" name="radio"><img src="/images/sp.gif" style="margin-left:25px;"></p>
+		<p>DMK &nbsp &nbsp<input type="radio" name="radio"><img src="/images/dmk.png" style="margin-left:25px;"></p>
+		<p>AIDMK &nbsp &nbsp<input type="radio" name="radio"><img src="/images/aidmk.jpg" style="margin-left:25px;"></p>
+		<p>NO ONE &nbsp &nbsp<input type="radio" name="radio"><img src="/images/5.jpg" style="margin-left:25px;"></p>
+		</div>
+		
+		</div>
+		</div>
+</body>
+</html>

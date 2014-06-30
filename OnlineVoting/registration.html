@@ -1,0 +1,67 @@
+<html>
+	<style>
+		body{ background-color : lightblue;}
+		p.one
+		  {
+			border-style:solid;
+			border-color:white;
+			border-width:1px;
+		  }
+		 
+ 	.header
+	{
+		position:absolute;
+		top:0%;
+		left:12%;
+        height:28%;
+		width:76%;
+        background-image: url("photo/1.jpg");
+        background-repeat: no-repeat;
+        background-position: top center;
+		text-align: center;
+	}
+
+		.center
+		  {
+			position:absolute;
+			top:28%;
+			left:15%;
+			border:solid white;
+			border-width:2px;
+			background-color:rgba(70,65,65,1);
+			border-color:green;
+			border-radius: 10px;
+			-moz-border-radius: 5px;
+			text-align: center;
+			display: inline-block;
+			width:70%;		
+		  }		
+	</style>
+        <body>
+	<div class="header"></div>
+	<div class="center">
+			<form action="addUser.php" method="POST">
+				<fieldset>
+				<legend>new user</legend>
+				<center>Name<input type="text" size="20px" name="name"/></center><br>
+				<center>Father Name&nbsp;<input type="text" size="20px" name="fname"/></center><br>
+				<center>Gender&nbsp;<select name="gender" width="20px">
+									<option>male</option>
+									<option>female</option>
+									</select>
+				<center>Age&nbsp;<input type="text" size="20px" name="age"/></center><br>
+				<center>Address&nbsp;&nbsp;&nbsp;&nbsp;<input type="textarea" size="20px" name="addr"/></center><br>
+				<center>User Id&nbsp;<input type="text" size="20px" name="uid"/></center><br>
+				<center>Password&nbsp;&nbsp;<input type="password" size="20px" name="pwd"/></center><br><br>
+				<center><input type="submit" value="Register"/>
+				<input type="reset" value="clear"/></center>
+			        
+				</fieldset>
+				</form>
+
+			
+	</div>
+
+	</body>
+</html>
+	

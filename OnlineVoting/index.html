@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Voting</title>
+<style>
+	
+	.header
+	{
+		position:absolute;
+		top:0%;
+		left:12%;
+        height:28%;
+		width:76%;
+        background-image: url("photo/1.jpg");
+        background-repeat: no-repeat;
+        background-position: top center;
+		text-align: center;
+	}
+	
+	.main{
+		position:absolute;
+		top:28%;
+		left:15%;
+		width:70%;
+		height:72%;
+		background-color:rgb(210,202,160); /*#eaeaea;*/
+		border-radius: 10px;
+		-moz-border-radius: 5px;
+		text-align: center;
+		font-size:1.5em;
+		font-weight: bold;
+		display: inline-block;
+		}
+	.left
+	{
+		position:absolute;
+		top:0%;
+		left:0%;
+		background-color:rgba(169, 66, 49, 1);
+        height:100%;
+		width:15%;
+		text-align: center;
+		font-size:1.8em;
+		font-weight: bold;
+		color: white;
+		
+	}
+
+	.right
+	{
+		position:absolute;
+		top:0%;
+		left:85%;
+        background-image: url("photo/3.jpg");
+        background-repeat: no-repeat;
+        background-position: top center;
+		background-color:rgb(10,20,10);
+        height:100%;
+		width:15%;
+		text-align: center;
+	}
+
+</style>
+</head>
+<body bgcolor=rgb(50,60,15)>
+	<div class="header"></div>
+
+	<div class="left">
+		
+		<div>
+		<form action="a.php" method="POST">
+		<a><img src="photo/9.jpg" style="position:relative;height: 30%;width: 100%;"></a><br>
+		<p><b>Search Voter</b></p>
+		<p><input type="text" name="vid"></p>
+		<p><input type="submit" name="searchButton" value="Search" tabindex="searchButton"></p><br>
+		</form>	
+		</div>
+		<p><a href="voter.php" style=" background-color:rgba(70,60,60,1); 
+			border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;color:white">See Voter List </a></p>
+
+		<p><a href="result.php" style=" background-color:rgba(70,60,70,1);
+			border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;color:white">See Results </a></p>
+	</div>
+	
+	<div class="main">
+		<form action="voting.html" method="POST">	
+		<div>
+		<p>Voter ID &nbsp <input type="text" name="vid"></p>
+		<p>Password &nbsp <input type="password" name="pwd"></p>
+		<p><input type="submit" name="l2" value="LOGIN" tabindex="login"></p>
+		<p><a href="registration.html" style="border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;color:black;">New Registration</a></p>
+		</div>
+		</form>	
+	</div>
+	<div class="right"></div>
+
+
+	</body>
+</html>
