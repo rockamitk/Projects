@@ -1,0 +1,23 @@
+<style>
+a{}
+.body
+{
+	background:pink;
+	text-align:center;
+	font-size:17px;
+}
+
+.button
+{
+cursor:pointer;
+color:green;
+background: #F0E68C;
+margin-left:10px;
+border-style:none;
+border-radius:5px;
+width:100px;
+height:25px;
+cursor:pointer;
+}
+
+</style>
