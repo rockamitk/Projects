@@ -1,0 +1,29 @@
+This project section have some Academic Projects ,which are developed by me indivisual as well as a team project.
+this is done based on graduation and post graduation carriculam.
+
+>I worked on a project named as "Gift Sales and Inventory Management System (GSIMS)" was a gradution final year project 
+ based on a shop,aimed to provide automate service to entire system .I used java as front-end language and oracle 10g
+ as back-end language ,using windows plateform.
+  Now rest of projects i did ,current year only.they are as follow...
+
+>Hostel Management Sytem(HMS)
+  basically this project was based on hostel office of NIT Calicut ,used to alloacte and deallocate room randomly.
+  NIT Calicut has specific process for room allotment,that is,a paritcular student get only those hostels which are
+  allocated based on his courses,year and gender.
+  It has also features to search room number ,hostel name,contact number by given roll number and course.
+  It has developed on mysql and java plateform.More details are provides inside that section.
+  
+> Online Food Booking,Mini Canteen
+ basically It was developed to create a portal,that used to receive orders for food.  
+ Students could place orders by their account and Canteen manager could receive order
+ by massage and deliver through a counter within a time.
+ This portal has main aim to reduce a long queqe during peak over time.
+ This portal was developed using HTML,PHP,CSS,JavaScript and MySQL.
+ It has done in three phase i,e SRS,Design and Prototype.
+ 
+ >Online Voting ,
+  I picked this topic during General Election of India 2014 to create a portal,which used to register votes through 
+  online .User can vote to his favorate party.It has developed in HTML,PHP,CSS and MySQL.
+  This has a limited feature to register your vote.
+ 
+
