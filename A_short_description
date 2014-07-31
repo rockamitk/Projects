@@ -18,8 +18,12 @@ this is done based on graduation and post graduation carriculam.
  Students could place orders by their account and Canteen manager could receive order
  by massage and deliver through a counter within a time.
  This portal has main aim to reduce a long queqe during peak over time.
- This portal was developed using HTML,PHP,JavaScript and MySQL.
+ This portal was developed using HTML,PHP,CSS,JavaScript and MySQL.
  It has done in three phase i,e SRS,Design and Prototype.
  
+ >Online Voting ,
+  I picked this topic during General Election of India 2014 to create a portal,which used to register votes through 
+  online .User can vote to his favorate party.It has developed in HTML,PHP,CSS and MySQL.
+  This has a limited feature to register your vote.
  
 
